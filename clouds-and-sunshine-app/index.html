@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
     <script
       src="https://kit.fontawesome.com/6acce40523.js"
       crossorigin="anonymous"
@@ -26,20 +27,30 @@
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
-        <div class="row">
-          <div class="col-4 g-0">
-            <ul class="ul-current-temp-and-date">
-              <li class="current-temperature">25°</li>
-              <li class="current-date">Date Today</li>
-            </ul>
+        <div class="header-temp-and-city">
+          <div class="row">
+            <div class="col-4 g-0">
+              <span class="current-temperature">25°</span>
+            </div>
+            <div class="col-8 g-0">
+              <ul class="ul-main-city-info">
+                <li><i class="fa-solid fa-cloud weather-icon"></i></li>
+                <li class="city-name">London</li>
+              </ul>
+            </div>
           </div>
-          <div class="col-8 g-0">
-            <ul class="ul-main-city-info">
-              <li><i class="fa-solid fa-cloud weather-icon"></i></li>
-              <li class="city-name">London</li>
-              <li class="humidity">Humidity: X%</li>
-              <li class="wind">Wind: 4.25 KM/H</li>
-            </ul>
+          <div class="header-additional-info">
+            <div class="row">
+              <div class="col-4 current-date">
+                <span>Date Today</span>
+              </div>
+              <div class="col-8 g-0">
+                <ul class="ul-humidity-and-wind">
+                  <li class="humidity">Humidity: X%</li>
+                  <li class="wind">Wind: 4.25 KM/H</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
