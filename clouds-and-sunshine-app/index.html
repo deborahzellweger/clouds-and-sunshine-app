@@ -17,11 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
     <script
       src="https://kit.fontawesome.com/6acce40523.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Clouds & Sunshine</title>
   </head>
@@ -32,7 +32,9 @@
           <div class="header-temp-and-city">
             <div class="row">
               <div class="col-sm-4 g-0">
-                <span class="current-temperature">25°</span>
+                <span class="current-temperature" id="current-temperature"
+                  >25°</span
+                >
               </div>
               <div class="col-sm-8 g-0">
                 <ul class="ul-main-city-info">
