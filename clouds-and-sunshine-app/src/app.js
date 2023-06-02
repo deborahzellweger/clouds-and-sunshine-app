@@ -6,10 +6,10 @@ function showTempAndCity(response) {
   )}°`;
   let city = document.querySelector("#city");
   city.innerHTML = response.data.city;
-  let humidity = document.querySelector("#humidity");
-  humidity.innerHTML = `${response.data.temperature.humidity}%`;
-  let wind = document.querySelector("#wind");
-  wind.innerHTML = `${response.data.wind.speed} KM/H`;
+  let currentHumidity = document.querySelector("#humidity");
+  currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
+  let currentWindSpeed = document.querySelector("#wind");
+  currentWindSpeed.innerHTML = `${response.data.wind.speed} KM/H`;
 }
 
 let city = "Bern";
