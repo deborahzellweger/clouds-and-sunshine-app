@@ -11,26 +11,37 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-  <script src="https://kit.fontawesome.com/6acce40523.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6acce40523.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Clouds & Sunshine</title>
   </head>
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="row">
-        <div class="col-4">
-          <ul>
-            <li><h1>25°</h1></li>
-          <li>Date Today</li>
-        </ul></div>
-        <div class="col-8">
-          <ul>
-            <li><i class="fa-solid fa-cloud"></i></li>
-            <li>London</li>
-            <li>Humidity: X%</li>
-          <li>Wind: 4.25 KM/H</li></ul></div>
-          
-      </div>
+          <div class="col-4 g-0">
+            <ul class="ul-current-temp-and-date">
+              <li class="current-temperature">25°</li>
+              <li class="current-date">Date Today</li>
+            </ul>
+          </div>
+          <div class="col-8 g-0">
+            <ul class="ul-main-city-info">
+              <li><i class="fa-solid fa-cloud weather-icon"></i></li>
+              <li class="city-name">London</li>
+              <li class="humidity">Humidity: X%</li>
+              <li class="wind">Wind: 4.25 KM/H</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <script src="src/app.js"></script>
