@@ -12,7 +12,7 @@ function showTempAndCity(response) {
   currentWindSpeed.innerHTML = `${Math.round(response.data.wind.speed)} KM/H`;
 }
 
-let city = "Bern";
+let city = "London";
 let apiKey = "fb48762bae7aac273c01t1cb80b143fo";
 let unit = "metric";
 let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=${unit}`;
