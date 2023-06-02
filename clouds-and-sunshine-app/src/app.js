@@ -9,7 +9,7 @@ function showTempAndCity(response) {
   let currentHumidity = document.querySelector("#humidity");
   currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
   let currentWindSpeed = document.querySelector("#wind");
-  currentWindSpeed.innerHTML = `${response.data.wind.speed} KM/H`;
+  currentWindSpeed.innerHTML = `${Math.round(response.data.wind.speed)} KM/H`;
 }
 
 let city = "Bern";
