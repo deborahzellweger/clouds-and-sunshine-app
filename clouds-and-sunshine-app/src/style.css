@@ -66,3 +66,12 @@ li {
   font-size: 15px;
   margin-top: 10px;
 }
+
+.search-input {
+  margin-top: 100px;
+}
+
+.form-control {
+  padding: 18px;
+  border-radius: 3px;
+}
