@@ -32,9 +32,19 @@ function showTempAndCity(response) {
   mainWeatherIcon.setAttribute("src", `${response.data.condition.icon_url}`);
 }
 
-let city = "London";
-let apiKey = "fb48762bae7aac273c01t1cb80b143fo";
-let unit = "metric";
-let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=${unit}`;
+function showSearchInput(city) {
+  let apiKey = "fb48762bae7aac273c01t1cb80b143fo";
+  let unit = "metric";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=${unit}`;
 
-axios.get(apiUrl).then(showTempAndCity);
+  axios.get(apiUrl).then(showTempAndCity);
+}
+
+function search(event) {
+  event.preventDefault();
+  let cityInput = document.querySelector("#city-input");
+  showSearchInput(cityInput.value);
+}
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", search);
