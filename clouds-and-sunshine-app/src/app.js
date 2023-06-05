@@ -28,8 +28,10 @@ function showTempAndCity(response) {
   )}°`;
   city.innerHTML = response.data.city;
   cityBackground.innerHTML = response.data.city;
-  currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
-  currentWindSpeed.innerHTML = `${Math.round(response.data.wind.speed)} KM/H`;
+  currentHumidity.innerHTML = `Humidity: ${response.data.temperature.humidity}%`;
+  currentWindSpeed.innerHTML = `Wind: ${Math.round(
+    response.data.wind.speed
+  )} KM/H`;
   currentDate.innerHTML = formatDate(response.data.time * 1000);
   mainWeatherIcon.setAttribute("src", `${response.data.condition.icon_url}`);
 }
