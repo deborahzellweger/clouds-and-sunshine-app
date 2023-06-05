@@ -11,19 +11,21 @@ li {
 
 .weather-app-wrapper {
   max-width: 800px;
-  margin: 110px auto 20px;
+  margin: 100px auto 20px;
+  overflow: hidden;
 }
 
 .app-header {
   line-height: 1;
-  background-color: rgba(228, 139, 61, 0.9);
+  background-color: rgba(228, 139, 61, 0.95);
   padding: 60px 60px 100px 60px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .current-temperature {
   font-size: 150px;
-  font-weight: 600;
+  font-weight: 700;
   padding-left: 5px;
 }
 
@@ -77,22 +79,27 @@ li {
 .source-code a {
   font-size: 12px;
   text-decoration: none;
-  color: rgba(228, 139, 61, 1);
+  color: black;
 }
 
 .source-code {
   font-size: 12px;
   text-decoration: none;
-  color: rgba(228, 139, 61, 1);
+  color: black;
   padding-top: 20px;
 }
 
 .city-background {
-  font-size: 270px;
+  font-size: 290px;
   font-weight: 900;
-  text-align: center;
+  color: rgba(228, 139, 61, 1);
+  line-height: 1;
+  text-align: left;
   position: fixed;
+  top: 90px;
+  z-index: -1;
+  word-break: break-all;
   overflow: hidden;
-  top: 213px;
-  width: 100%;
+  max-width: 800px;
+  max-height: 510px;
 }

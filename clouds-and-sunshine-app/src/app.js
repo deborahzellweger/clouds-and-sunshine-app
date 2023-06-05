@@ -17,6 +17,7 @@ function showTempAndCity(response) {
   console.log(response.data);
   let currentTemperature = document.querySelector("#current-temperature");
   let city = document.querySelector("#city");
+  let cityBackground = document.querySelector("#city-background");
   let currentHumidity = document.querySelector("#humidity");
   let currentWindSpeed = document.querySelector("#wind");
   let currentDate = document.querySelector("#current-date");
@@ -26,6 +27,7 @@ function showTempAndCity(response) {
     response.data.temperature.current
   )}°`;
   city.innerHTML = response.data.city;
+  cityBackground.innerHTML = response.data.city;
   currentHumidity.innerHTML = `${response.data.temperature.humidity}%`;
   currentWindSpeed.innerHTML = `${Math.round(response.data.wind.speed)} KM/H`;
   currentDate.innerHTML = formatDate(response.data.time * 1000);
