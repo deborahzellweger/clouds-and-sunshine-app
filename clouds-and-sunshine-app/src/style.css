@@ -9,8 +9,6 @@ li {
   margin: 0;
 }
 
-
-
 .weather-app-wrapper {
   max-width: 800px;
   margin: 110px auto 20px;
@@ -78,8 +76,16 @@ li {
   border-radius: 3px;
 }
 
+.source-code a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgba(228, 139, 61, 1);
+}
+
 .source-code {
   font-size: 12px;
+  text-decoration: none;
+  color: rgba(228, 139, 61, 1);
 }
 
 .city-background {
