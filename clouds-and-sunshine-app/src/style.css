@@ -9,17 +9,19 @@ li {
   margin: 0;
 }
 
+
+
 .weather-app-wrapper {
   max-width: 800px;
-  margin: 110px auto;
-  background: grey;
-  padding: 80px 40px 100px 40px;
+  margin: 110px auto 20px;
+  background-color: rgba(228, 139, 61, 0.9);
+  padding: 30px 30px 100px 30px;
   border-radius: 5px;
 }
 
 .app-header {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   line-height: 1;
 }
 
@@ -42,7 +44,7 @@ li {
 .city-name {
   font-size: 50px;
   font-weight: 600;
-  margin-top: 26px;
+  margin-top: 28px;
 }
 
 .header-additional-info {
@@ -74,4 +76,18 @@ li {
 .form-control {
   padding: 18px;
   border-radius: 3px;
+}
+
+.source-code {
+  font-size: 12px;
+}
+
+.city-background {
+  font-size: 270px;
+  font-weight: 900;
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  top: 213px;
+  width: 100%;
 }
