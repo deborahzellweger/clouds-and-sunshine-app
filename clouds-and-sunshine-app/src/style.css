@@ -12,15 +12,13 @@ li {
 .weather-app-wrapper {
   max-width: 800px;
   margin: 110px auto 20px;
-  background-color: rgba(228, 139, 61, 0.9);
-  padding: 30px 30px 100px 30px;
-  border-radius: 5px;
 }
 
 .app-header {
-  margin-left: 20px;
-  margin-right: 20px;
   line-height: 1;
+  background-color: rgba(228, 139, 61, 0.9);
+  padding: 60px 60px 100px 60px;
+  border-radius: 5px;
 }
 
 .current-temperature {
@@ -86,6 +84,7 @@ li {
   font-size: 12px;
   text-decoration: none;
   color: rgba(228, 139, 61, 1);
+  padding-top: 20px;
 }
 
 .city-background {
