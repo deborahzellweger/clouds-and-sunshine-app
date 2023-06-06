@@ -10,6 +10,11 @@ li {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   max-width: 1200px;
 }
@@ -27,18 +32,15 @@ li {
 }
 
 .current-temperature {
-  font-size: 150px;
+  font-size: 200px;
   font-weight: 700;
   padding-left: 10px;
 }
 
-.temperature-units a,
 .temperature-units {
   font-size: 20px;
   font-weight: 600;
-  text-decoration: none;
-  color: black;
-  padding-left: 5px;
+  padding: 30px 0 0 10px;
 }
 
 .ul-main-city-info {
@@ -56,7 +58,7 @@ li {
 .city-name {
   font-size: 50px;
   font-weight: 600;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 .ul-date-humidity-wind {
@@ -77,25 +79,14 @@ li {
   margin-top: 10px;
 }
 
-.search-input {
-  margin-top: 80px;
-}
-
 .form-control {
   padding: 15px;
   border-radius: 5px;
-}
-
-.source-code a {
-  font-size: 12px;
-  text-decoration: none;
-  color: black;
+  margin-top: 80px;
 }
 
 .source-code {
   font-size: 12px;
-  text-decoration: none;
-  color: black;
   padding-top: 20px;
 }
 
