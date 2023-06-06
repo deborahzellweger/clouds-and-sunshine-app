@@ -32,7 +32,10 @@ function showTempAndCity(response) {
     response.data.wind.speed
   )} KM/H`;
   currentDate.innerHTML = formatDate(response.data.time * 1000);
-  mainWeatherIcon.setAttribute("src", `${response.data.condition.icon_url}`);
+  mainWeatherIcon.setAttribute(
+    "src",
+    `src/weather-icons/weather-app-icons.svg`
+  );
 }
 
 function showSearchInput(city) {

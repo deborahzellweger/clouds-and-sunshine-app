@@ -22,7 +22,7 @@ li {
 .app-header {
   line-height: 1;
   background-color: rgba(228, 139, 61, 0.85);
-  padding: 70px 70px 100px 70px;
+  padding: 60px 70px 100px 70px;
   border-radius: 8px;
 }
 
@@ -38,7 +38,7 @@ li {
   font-weight: 600;
   text-decoration: none;
   color: black;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .ul-main-city-info {
@@ -47,14 +47,16 @@ li {
   text-align: right;
 }
 
-.weather-icon {
-  font-size: 50px;
+.main-icon {
+  height: 90px;
+  position: relative;
+  top: 20px;
 }
 
 .city-name {
   font-size: 50px;
   font-weight: 600;
-  margin-top: 28px;
+  margin-top: 45px;
 }
 
 .header-additional-info {
