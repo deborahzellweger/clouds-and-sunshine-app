@@ -29,6 +29,14 @@ li {
   padding-left: 5px;
 }
 
+.temperature-units a,
+.temperature-units {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
 .ul-main-city-info {
   padding-left: 0;
   margin-bottom: 0;
