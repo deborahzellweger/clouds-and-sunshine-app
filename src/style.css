@@ -1,12 +1,17 @@
 body {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  background-color: rgba(213, 218, 137, 100);
 }
 
 li {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.container {
+  max-width: 1200px;
 }
 
 .weather-app-wrapper {
@@ -17,7 +22,7 @@ li {
 
 .app-header {
   line-height: 1;
-  background-color: rgba(228, 139, 61, 0.95);
+  background-color: rgba(228, 139, 61, 0.85);
   padding: 60px 60px 100px 60px;
   border-radius: 5px;
   overflow: hidden;
@@ -98,16 +103,17 @@ li {
 }
 
 .city-background {
-  font-size: 290px;
+  font-size: 300px;
   font-weight: 900;
-  color: rgba(228, 139, 61, 1);
+  color: rgba(79, 141, 93, 0.3);
   line-height: 1;
   text-align: left;
   position: fixed;
-  top: 90px;
+  top: 5px;
   z-index: -1;
   word-break: break-all;
   overflow: hidden;
-  max-width: 800px;
-  max-height: 510px;
+  max-width: 900px;
+  max-height: 900px;
+  padding: 26px;
 }
