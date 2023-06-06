@@ -17,21 +17,19 @@ li {
 .weather-app-wrapper {
   max-width: 800px;
   margin: 100px auto 20px;
-  overflow: hidden;
 }
 
 .app-header {
   line-height: 1;
   background-color: rgba(228, 139, 61, 0.85);
-  padding: 60px 60px 100px 60px;
-  border-radius: 5px;
-  overflow: hidden;
+  padding: 70px 70px 100px 70px;
+  border-radius: 8px;
 }
 
 .current-temperature {
   font-size: 150px;
   font-weight: 700;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
 .temperature-units a,
@@ -40,6 +38,7 @@ li {
   font-weight: 600;
   text-decoration: none;
   color: black;
+  padding-left: 10px;
 }
 
 .ul-main-city-info {
