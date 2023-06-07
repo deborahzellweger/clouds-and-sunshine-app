@@ -34,7 +34,7 @@ function showTempAndCity(response) {
   currentDate.innerHTML = formatDate(response.data.time * 1000);
   mainWeatherIcon.setAttribute(
     "src",
-    `src/weather-icons/weather-app-icons.svg`
+    `src/weather-icons/weather-app-icons_clear-sky-day.png`
   );
 }
 
