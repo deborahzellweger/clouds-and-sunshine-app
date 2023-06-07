@@ -59,6 +59,7 @@ a {
   font-size: 50px;
   font-weight: 600;
   margin-top: 40px;
+  overflow: break;
 }
 
 .ul-date-humidity-wind {
