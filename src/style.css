@@ -109,7 +109,7 @@ a {
 }
 
 .weather-forecast {
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .max-temp {
@@ -125,5 +125,5 @@ a {
 
 .weekday-1-icon {
   height: 50px;
-  margin: 52px 0 0 -5px;
+  margin: 10px 0 0 0;
 }
