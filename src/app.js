@@ -13,6 +13,49 @@ function formatDate(timestamp) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class="row"`;
+  forecastHTML =
+    forecastHTML +
+    `
+            <div class="col-2">
+                <span class="weekday">Mon</span>
+                <div class="d-flex">
+                  <span class="max-temp"> 66 </span>
+                  <span class="min-temp">
+                    18 <br />
+                    <img
+                      class="weekday-1-icon"
+                      src="src/weather-icons/weather-app-icons_few-clouds-day.png"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>`;
+
+  forecastHTML =
+    forecastHTML +
+    `
+            <div class="col-2">
+                <span class="weekday">Mon</span>
+                <div class="d-flex">
+                  <span class="max-temp"> 66 </span>
+                  <span class="min-temp">
+                    18 <br />
+                    <img
+                      class="weekday-1-icon"
+                      src="src/weather-icons/weather-app-icons_few-clouds-day.png"
+                      alt=""
+                    />
+                  </span>
+                </div>
+              </div>`;
+
+  forecastHTML = forecastHTML + `<div/>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function showTempAndCity(response) {
   let currentTemperature = document.querySelector("#current-temperature");
   let city = document.querySelector("#city");
@@ -21,6 +64,8 @@ function showTempAndCity(response) {
   let currentWindSpeed = document.querySelector("#wind");
   let currentDate = document.querySelector("#current-date");
   let mainWeatherIcon = document.querySelector("#main-weather-icon");
+
+  displayForecast();
 
   celsiusTemperature = response.data.temperature.current;
 
