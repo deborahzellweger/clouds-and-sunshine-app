@@ -108,8 +108,12 @@ a {
   padding: 26px;
 }
 
-.weather-forecast {
+.forecast {
   margin-top: 90px;
+}
+
+.forecast-col {
+  width: 32%;
 }
 
 .max-temp {
