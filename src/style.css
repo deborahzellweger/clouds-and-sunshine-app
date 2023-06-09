@@ -112,15 +112,15 @@ a {
 }
 
 .city-background {
-  font-size: 350px;
+  font-size: 475px;
   font-weight: 900;
-  color: rgba(79, 141, 93, 0.3);
+  color: rgba(79, 141, 93, 0.2);
   line-height: 1;
   position: fixed;
-  top: 200px;
+  top: -5px;
   z-index: -1;
   word-break: break-all;
   max-width: 1500px;
-  max-height: 670px;
+  max-height: 945px;
   overflow: hidden;
 }
