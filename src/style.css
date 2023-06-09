@@ -79,11 +79,15 @@ a {
 .form-control {
   padding: 12px;
   border-radius: 3px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .forecast {
-  margin-top: 90px;
+  margin-top: 70px;
+}
+
+.weekday {
+  margin-bottom: 5px;
 }
 
 .max-temp {
