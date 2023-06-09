@@ -22,13 +22,14 @@ a {
 .weather-app-wrapper {
   max-width: 800px;
   margin: 100px auto 20px;
+  line-height: 1;
+    background-color: rgba(228, 139, 61, 0.85);
+    padding: 60px 70px 100px 70px;
+    border-radius: 8px;
 }
 
 .app-header {
-  line-height: 1;
-  background-color: rgba(228, 139, 61, 0.85);
-  padding: 60px 70px 100px 70px;
-  border-radius: 8px;
+  
 }
 
 .current-temperature {
