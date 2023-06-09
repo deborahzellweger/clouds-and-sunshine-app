@@ -60,9 +60,7 @@ a {
 }
 
 .ul-date-humidity-wind {
-  padding-left: 0;
-  margin-top: 25px;
-  margin-bottom: 0;
+  margin: 5px 0 0 0;
   text-align: right;
 }
 
@@ -79,28 +77,9 @@ a {
 }
 
 .form-control {
-  padding: 15px;
-  border-radius: 5px;
-  margin-top: 80px;
-}
-
-.source-code {
-  font-size: 12px;
-  padding-top: 20px;
-}
-
-.city-background {
-  font-size: 300px;
-  font-weight: 900;
-  color: rgba(79, 141, 93, 0.3);
-  line-height: 1;
-  position: fixed;
-  top: 280px;
-  z-index: -1;
-  word-break: break-all;
-  max-width: 2000px;
-  max-height: 600px;
-  overflow: hidden;
+  padding: 12px;
+  border-radius: 3px;
+  margin-top: 50px;
 }
 
 .forecast {
@@ -121,4 +100,23 @@ a {
 .weekday-1-icon {
   height: 45px;
   margin: 8px 0 0 0;
+}
+
+.source-code {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.city-background {
+  font-size: 350px;
+  font-weight: 900;
+  color: rgba(79, 141, 93, 0.3);
+  line-height: 1;
+  position: fixed;
+  top: 200px;
+  z-index: -1;
+  word-break: break-all;
+  max-width: 1500px;
+  max-height: 670px;
+  overflow: hidden;
 }
